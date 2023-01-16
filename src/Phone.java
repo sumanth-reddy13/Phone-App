@@ -1,7 +1,7 @@
 public interface Phone {
-    void makeAcall(String phoneNumber);
+    void makeAcall(Object obj);
 
-    boolean incomingCall(String phNo);
+    boolean incomingCall(String phNo, String incomingNumber);
 
     void answerCall();
 
